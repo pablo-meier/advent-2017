@@ -18,6 +18,17 @@ The goal here is to do a _bit_ more depth on the paradigms and languages I'm
 less familiar with. While last year I got a ton of depth, I'd like to feel
 less lonely jumping into a codebase in either of the languages above.
 
+## Completions
+
+|        | Python | OCaml | Prolog | Factor | Rust |
+|:----   |  :---: | :---: | :---:  | :---:  | :---:|
+| Day 1  |  **X** | **X** | **X**  | **X**  |      |
+| Day 2  |  **X** | **X** | **X**  |        |      |
+| Day 3  |        | **X** |        |        |      |
+| Day 4  |  **X** | **X** |        |        |      |
+| Day 5  |  **X** | **X** |        |        |      |
+| Day 6  |  **X** |       |        |        |      |
+
 ## Versions
 
 - Python 3.6.3
