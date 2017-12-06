@@ -37,7 +37,7 @@
 >   each of the four banks receives one: `1 3 4 1`.
 >  - The third bank is chosen, and the same thing happens: `2 4 1 2`.
 > 
-> At this point, we've reached a state we've seen before: 2 4 1 2 was already
+> At this point, we've reached a state we've seen before: `2 4 1 2` was already
 > seen. The infinite loop is detected after the fifth block redistribution cycle,
 > and so the answer in this example is 5.
 > 
@@ -52,15 +52,15 @@ before, which you track with a set or some other constant time lookup.
 
 ## Part 2
 
-Out of curiosity, the debugger would also like to know the size of the loop:
-starting from a state that has already been seen, how many block redistribution
-cycles must be performed before that same state is seen again?
-
-In the example above, `2 4 1 2` is seen again after four cycles, and so the
-answer in that example would be 4.
-
-How many cycles are in the infinite loop that arises from the configuration in
-your puzzle input?
+> Out of curiosity, the debugger would also like to know the size of the loop:
+> starting from a state that has already been seen, how many block redistribution
+> cycles must be performed before that same state is seen again?
+> 
+> In the example above, `2 4 1 2` is seen again after four cycles, and so the
+> answer in that example would be 4.
+> 
+> How many cycles are in the infinite loop that arises from the configuration in
+> your puzzle input?
 
 ## Solution
 
