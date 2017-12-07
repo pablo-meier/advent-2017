@@ -28,6 +28,7 @@ less lonely jumping into a codebase in either of the languages above.
 | Day 4  |  **X** | **X** |        |        |      |
 | Day 5  |  **X** | **X** |        |        |      |
 | Day 6  |  **X** | **X** |        |        |      |
+| Day 7  |  **X** |       |        |        |      |
 
 ## Versions
 
