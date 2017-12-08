@@ -41,7 +41,7 @@ let redistribute_beads arr =
     let () = arr.(curr_max_index) <- 0 in
     step curr_max curr_max_index
 
-let rec solve {value_map; arr; num_turns; length_of_loop} = 
+let rec solve {value_map; arr; num_turns; _} = 
     let () = redistribute_beads arr in
     let new_turns = num_turns + 1 in
     let str_key = string_key arr in
