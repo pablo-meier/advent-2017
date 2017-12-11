@@ -30,7 +30,7 @@ less lonely jumping into a codebase in either of the languages above.
 | Day 6  |  **X** | **X** |        |        |      |
 | Day 7  |  **X** |       |        |        |      |
 | Day 8  |  **X** | **X** |        |        |      |
-| Day 9  |  **X** |       |        |        |      |
+| Day 9  |  **X** | **X** |        |        |      |
 | Day 10 |  **X** |       |        |        |      |
 
 ## Versions

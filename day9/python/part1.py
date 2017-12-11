@@ -35,34 +35,6 @@ def process_stream(string):
     return (running_sum, garbage_character_sum)
 
 
-# def test_score(case, expected):
-#     (result, _) = process_stream(case)
-#     print('{} should be {}: {}'.format(case, expected, result))
-#
-#
-# def test_gc(case, expected):
-#     (_, result) = process_stream(case)
-#     print('{} should be {}: {}'.format(case, expected, result))
-#
-#
-# test_score('{}', 1)
-# test_score('{{{}}}', 6)
-# test_score('{{},{}}', 5)
-# test_score('{{{},{},{{}}}}', 16)
-# test_score('{<a>,<a>,<a>,<a>}', 1)
-# test_score('{{<ab>},{<ab>},{<ab>},{<ab>}}', 9)
-# test_score('{{<!!>},{<!!>},{<!!>},{<!!>}}', 9)
-# test_score('{{<a!>},{<a!>},{<a!>},{<ab>}}', 3)
-#
-#
-# test_gc('<>', 0)
-# test_gc('<random characters>', 17)
-# test_gc('<<<<>', 3)
-# test_gc('<{!>}>', 2)
-# test_gc('<!!>', 0)
-# test_gc('<!!!>>', 0)
-# test_gc('<{o"i!a,<{i<a>', 10)
-
 with open('../input.txt') as f:
     (group_score, garbage_characters) = process_stream(f.readline().strip())
     print('Part 1: Sum of all group is {}'.format(group_score))
