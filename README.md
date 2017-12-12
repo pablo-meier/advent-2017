@@ -32,6 +32,8 @@ less lonely jumping into a codebase in either of the languages above.
 | Day 8  |  **X** | **X** |        |        |      |
 | Day 9  |  **X** | **X** |        |        |      |
 | Day 10 |  **X** |       |        |        |      |
+| Day 11 |  **X** |       |        |        |      |
+| Day 12 |  **X** |       |        |        |      |
 
 ## Versions
 
